@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap test</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">AnyBank</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+							<li><a href="#">Account</a></li>
+							<li><a href="#">Cards</a></li>
+							<li><a href="#"></a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pablo Regis  <span class="badge">0</span><span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">0 new notifications</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Profile</a></li>
+									<li><a href="#">Settings</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Logout</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</header>
+
+		<div class="row row-eq-height">
+
+			<div id="menu" class="col-md-3 bg-danger">
+				<form action="" method="">
+					<div class="form-group">
+						<label for="acc-number">
+							Account Number:
+						</label>
+						<div class="form-group">
+							<input type="text" id="acc-number" class="form-control">
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="amount">Amount</label>
+							<div class="input-group">
+								<div class="input-group-addon">$</div>
+								<input type="text" class="form-control" id="amount" placeholder="Amount">
+								<div class="input-group-addon">.00</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<input type="submit" id="submit" class="btn btn-success" value="Transfer"/>
+					</div>
+				</form>
+			</div> <!-- /menu -->
+
+			<div id="content" class="col-md-9 bg-warning" >
+				<div class="jumbotron">
+					<h1>Jumbotron</h1>
+					<p>This is a div with the class jumbotron</p>
+					<div>
+						<button class="btn btn-primary" type="button" data-toggle="modal" data-target="#mymodal">
+							View more
+						</button>
+						<div class="modal fade" id="mymodal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h3>A title for my modal</h3>
+									</div>
+									<div class="modal-body">
+										<p>Some content goes in here</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- /modal-button -->
+				</div> <!-- /jumbotron -->
+
+				<div class="col-md-4 bg-info">
+					<h2>Heading</h2>
+					<p>
+						Lorem ipsum dolor sit amet, qui ei doming nemore docendi, affert oratio antiopam his et. No velit graeco has, in offendit euripidis adolescens quo. Cu mei vidit fugit, in nisl vituperata mediocritatem vel, id ius vidisse omittam rationibus. Id mea causae definitionem, no apeirian invenire mel. Mea id cetero prodesset, te ius vide malorum maluisset, has illum dictas salutandi no.
+					</p>
+				</div>
+
+				<div class="col-md-4 bg-info">
+					<h2>Heading</h2>
+					<p>
+						Lorem ipsum dolor sit amet, qui ei doming nemore docendi, affert oratio antiopam his et. No velit graeco has, in offendit euripidis adolescens quo. Cu mei vidit fugit, in nisl vituperata mediocritatem vel, id ius vidisse omittam rationibus. Id mea causae definitionem, no apeirian invenire mel. Mea id cetero prodesset, te ius vide malorum maluisset, has illum dictas salutandi no.
+					</p>
+				</div>
+				
+				<div class="col-md-4 bg-info">
+					<h2>Heading</h2>
+					<p>
+						Lorem ipsum dolor sit amet, qui ei doming nemore docendi, affert oratio antiopam his et. No velit graeco has, in offendit euripidis adolescens quo. Cu mei vidit fugit, in nisl vituperata mediocritatem vel, id ius vidisse omittam rationibus. Id mea causae definitionem, no apeirian invenire mel. Mea id cetero prodesset, te ius vide malorum maluisset, has illum dictas salutandi no.
+					</p>
+				</div>
+			</div> <!-- /content -->
+
+		</div> <!-- /row -->
+	</div> <!-- /container -->
+	
+	<div class="row">
+		<footer class="col-md-12">
+			<p class="text-center">&copy; Copyright 2016</p>
+		</footer>
+	</div> <!-- /footer -->
+
+	<!-- JavaScript files should be linket at the bottom of the page -->
+		
+	<!-- JQuery -->
+	<script src="js/jquery-2.2.0.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
